@@ -12,3 +12,27 @@
 h1, h2, h3, h4, h5 {
 	color: #8382BF;
 }
+
+.friends_image {
+	display: block;
+	padding: 4px;
+	margin-bottom: 20px;
+	transition: all 0.2s ease-in-out;
+
+}
+
+.friends_image img { 
+	padding: 4px;
+	max-width: 400px;
+	text-align: center;
+	border-radius: 20px;
+}
+.friends_image h3 {
+	padding: 4px;
+}
+.friends_image p {
+	padding: 4px;
+}
+
+
+

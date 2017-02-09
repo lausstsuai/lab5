@@ -10,6 +10,7 @@ $(document).ready(function() {
  */
 function initializePage() {
 	console.log("Javascript connected!");
+	$(".friends_image h3").click(projectClick);
 }
 
 function anagrammedName(name) {
@@ -44,3 +45,16 @@ function anagrammedName(name) {
 		return name;
 	}
 }
+function projectClick(e) { 
+    // prevent the page from reloading      
+    console.log("projectClick called!");
+    e.preventDefault();
+    var name = $(this).text();
+    name.replace(/\r|\n/ig,""); 
+    name.replace(/(^\s*)|(\s*$)/g,"");   
+    var newname = anagrammedName(name);
+    console.log(name);
+    $(this).text(newname);
+    
+}
+
