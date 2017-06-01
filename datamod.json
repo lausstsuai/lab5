@@ -3,57 +3,47 @@
 		{
 			"name": "Doug Engelbart",
 			"description": "Has awesome pet mice",
-			"imageURL": "/images/original/barba.jpg"			
+			"imageURL": "/images/modified/barba.jpg"			
 		},
 		{
 			"name": "Ivan Sutherland",
 			"description": "Great at sketching",
-			"imageURL": "/images/original/baseball413Couleur.jpg"			
+			"imageURL": "/images/modified/baseball413Couleur.jpg"			
 		},
 		{
 			"name": "Lucy Suchman",
 			"description": "Loves Trukese navigators",
-			"imageURL": "/images/original/churchandcapitol2.jpg"			
+			"imageURL": "/images/modified/churchandcapitol2.jpg"			
 		},
 		{
 			"name": "Vannevar Bush",
 			"description": "Has stellar associative memory",
-			"imageURL": "/images/original/lighthouse2.jpg"			
+			"imageURL": "/images/modified/lighthouse2.jpg"			
 		},
 		{
 			"name": "Grace Hopper",
 			"description": "Only friend with a Navy ship named after them",
-			"imageURL": "/images/original/parrots.jpg"		
+			"imageURL": "/images/modified/parrots.jpg"		
 		},
 		{
 			"name": "Allen Newell",
 			"description": "Really into psychology",
-			"imageURL": "/images/original/ocean.jpg"
+			"imageURL": "/images/modified/ocean.jpg"
 		},
 		{
 			"name": "Allen Newell",
 			"description": "Really into psychology",
-			"imageURL": "/images/original/stream.jpg"
+			"imageURL": "/images/modified/stream.jpg"
 		},
 		{
 			"name": "Allen Newell",
 			"description": "Really into psychology",
-			"imageURL": "/images/original/vautour692Couleur.jpg"
+			"imageURL": "/images/modified/vautour692Couleur.jpg"
 		},
 		{
 			"name": "Allen Newell",
 			"description": "Really into psychology",
-			"imageURL": "/images/original/dancers2.jpg"
-		},
-		{
-			"name": "Allen Newell",
-			"description": "Really into psychology",
-			"imageURL": "/images/original/zebres1000Couleur.jpg"
-		},
-		{
-			"name": "Allen Newell",
-			"description": "Really into psychology",
-			"imageURL": "/images/original/rapids.jpg"
+			"imageURL": "/images/modified/dancers2.jpg"
 		},
 		{
 			"name": "Allen Newell",
@@ -65,9 +55,6 @@
 			"description": "Really into psychology",
 			"imageURL": "/images/modified/mobileCouleur0.jpg"
 		}
-		
-
-
 	],
 
 	"items": [

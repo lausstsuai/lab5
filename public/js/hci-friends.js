@@ -12,6 +12,7 @@ function initializePage() {
 	console.log("Javascript connected!");
 	$(".friends_image h3").click(projectClick);
 	$(".btn-success").click(buttonClick);
+	$(".btn-danger").click(winExit);
 }
 
 function anagrammedName(name) {
@@ -62,7 +63,15 @@ function buttonClick(e) {
 	console.log("Button clicked!");
 	$(this).prop('disabled', true);
 	$(this).text("Liked");
+	ga("send", "event", "like", "click");
+
 }
+
+function winExit(e) {
+	console.log("Test finished!");
+	ga("send", "event", "exit", "click");
+}
+
 
 
 
