@@ -1,5 +1,7 @@
 'use strict';
-
+var c=0
+var t
+var n = 0
 // Call this function when the page loads (the "ready" event)
 $(document).ready(function() {
 	initializePage();
@@ -13,6 +15,7 @@ function initializePage() {
 	$(".friends_image h3").click(projectClick);
 	$(".btn-success").click(buttonClick);
 	$(".btn-danger").click(winExit);
+	$(".btn-primary").click(timedCount);
 }
 
 function anagrammedName(name) {
@@ -64,12 +67,23 @@ function buttonClick(e) {
 	$(this).prop('disabled', true);
 	$(this).text("Liked");
 	ga("send", "event", "like", "click");
+	n = n + 1
+	document.getElementById('num').value = n
 
 }
 
 function winExit(e) {
+	$(this).prop('disabled', true);
 	console.log("Test finished!");
+	clearTimeout(t)
 	ga("send", "event", "exit", "click");
+}
+
+function timedCount(e) {
+	$(this).prop('disabled', true);
+	document.getElementById('txt').value=c
+	c=c+1
+	t=setTimeout("timedCount()",1000)
 }
 
 

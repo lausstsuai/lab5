@@ -25,7 +25,11 @@
 		</p>
 	</div>
 	-->
+	<h4>Hi, welcome to our test! The test will roughly take you 10 minutes. Please be focused since the whole process is timed. Please take time to observe the pictures below. You may observe them as long as they remain attractive to you. If you like a picture, click the "like" button below. Please click "start" when you are ready. Doing so will start the timer. When you finish, click the "Done!" button at the end of the webpage to stop the timer. Your participation is appreciated, thank you!</h4>
 
+	<div class = "friends_image thumbnail" >
+		<button type = "button" class = "btn btn-primary btn-block">Start</button>
+	</div>
 	{{#each friends}}
 	<div class = "friends_image thumbnail" >
 		<img src = "{{imageURL}}" class = "img-responsive"/>
@@ -36,8 +40,13 @@
 		<button type = "button" class = "btn btn-success btn-block">Like</button>
 	</div>
 	{{/each}}
+
 	<div class = "friends_image thumbnail" >
-		<button type = "button" class = "btn btn-danger btn-block">Exit</button>
+		<button type = "button" class = "btn btn-danger btn-block">Done!</button>
+		<h5>Timing(sec)</h5>
+		<input type="text" id="txt">
+		<h5>Number of "like"s</h5>
+		<input type="text" id="num">
 	</div>
 
 
